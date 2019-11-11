@@ -11,7 +11,7 @@ services:
       - $configpath:/config
       - $downloadspath:/downloads
     ports:
-      - 8000:80
+      - 9092:80
       - 5000:5000
       - 51413:51413
       - 6881:6881/udp
